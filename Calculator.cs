@@ -19,8 +19,8 @@ namespace Kontur.Courses.Git
                 // + 1
                 //>5
                 var v1 = double.Parse(args[1]);
-			    return lastResult = Execute(args[0], v1, lastResult.Value);
-			}
+                return lastResult = Execute(args[0], v1, lastResult.Value);
+            }
 			if (args.Length == 3)
 			{
 				var v1 = double.Parse(args[0]);
